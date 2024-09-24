@@ -1,0 +1,8 @@
+증가혹은 감소버튼을 누르면
+dispatch(increment())가 실행되고 액션 함수를 통해 반환받은 객체를 리듀서 함수로 보낸다.
+
+increment() 의 반환값 ->{type:'INCREMNET'}
+
+dispatch({type:'INCREMENT})를 counterReducer의 인자로 전달
+
+리듀서에서 상태를 업데이트하면 재렌더링이 되고 화면이 바뀐값이 출력됨 
